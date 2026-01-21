@@ -1,6 +1,9 @@
-OPENAI_API_KEY: sk-YOURAPIKEY
+# GPT4all API Configuration
+gpt4all_api_url: http://localhost:4891/v1
 history_file: chat_history.json
-model: "gpt-4.1-mini"
+temperature: 0.7
+max_tokens: 2048
+
 presets:
   default:
     system_prompt: |
